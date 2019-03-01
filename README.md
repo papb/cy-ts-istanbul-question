@@ -1,10 +1,12 @@
 # Trying to make Cypress, TypeScript and IstanbulJS work together
 
+**There is a [question on stackoverflow](https://stackoverflow.com/q/54937425/4135063) dedicated to this repository**
+
 I am trying to generate code coverage reports with [IstanbulJS](https://github.com/istanbuljs/istanbuljs) for my code written in [TypeScript](https://github.com/Microsoft/TypeScript) and tested with [Cypress](https://www.cypress.io/). But things get reported out of place:
 
 ![IstanbulJS's HTML report with hit counter in the wrong lines](https://i.stack.imgur.com/8RNp2.png)
 
-I created a git repository [MCVE](https://stackoverflow.com/help/mcve) specifically for this question, so you can reproduce exactly my situation:
+I created a [git repository](https://github.com/papb/cy-ts-istanbul-question) [MCVE](https://stackoverflow.com/help/mcve) specifically for this question, so you can reproduce exactly my situation:
 
     git clone https://github.com/papb/cy-ts-istanbul-question
     cd cy-ts-istanbul-question
@@ -13,6 +15,8 @@ I created a git repository [MCVE](https://stackoverflow.com/help/mcve) specifica
     # And then open the file `coverage/index.ts.html` to see the image above.
 
 **How to fix that?**
+
+----------
 
 ## Details
 
